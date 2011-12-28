@@ -1,0 +1,77 @@
+---
+layout: main
+---
+<!-- Top -->
+{% include nav.html %}
+
+<!-- Head -->
+{% include head.html %}
+
+<div id="content">
+
+<div id="featured">
+
+  {% for post in site.posts limit:1 %}
+  <div class="date">
+    <ul>
+      <li class="day">{{ post.date | date:"%d" }}</li>
+      <li class="month">{{ post.date | date:"%b" }}</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+
+  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  {{ post.content | postmorefilter: post.url, "Read more &rarr;" }}
+  {% endfor %}
+  </div>
+
+</div>
+
+<!-- Recent Posts and Navigtion -->
+
+<div id="bottom_head">
+</div>
+
+
+<div id="bottom">
+<div id="archive">
+<ul class="listing clear">
+{% for post in site.posts limit:4 %}
+<li class="blogs"><span class="entry-date">{{ post.date | date:"%d %b" }}</span><a class="entry-title" href="{{ post.url }}">{{ post.title }}</a>
+
+</li>
+<p>
+  {{ post.content | postmorefilter: post.url, "Read more &rarr;" }}
+</p>
+{% endfor %}
+</ul>
+</div>
+
+<div id="meta">
+  <ul>
+
+     <li class="headline">Tags</li>
+     {% for tag in site.tags %}
+     <li><a href="/tags/{{ tag[0] }}">{{ tag[0] }}</a></li>
+     {% endfor %}
+  </ul>
+
+  <ul>
+  <li class="headline">Browse by Month</li>
+{% for monthly_archive in site.monthly_archives reversed %}
+  <li>
+    <a href="{{ monthly_archive.url }}/">{{ monthly_archive.name }} ({{ monthly_archive.posts | size }} posts)</a>
+  </li>
+{% endfor %}
+</ul>
+
+</div>
+
+
+
+</div>
+
+<div class="viewarchives">
+<p><a href="/archives/">View the entire archive</a></p>
+</div>

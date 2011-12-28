@@ -1,0 +1,14 @@
+---
+layout: archive
+title: archives
+description: "something new, something old"
+slug: archives
+---
+
+Archive Index
+============================
+
+You can either browse posts by [date](#chronological) or [tag](#tagindex).
+
+
+
