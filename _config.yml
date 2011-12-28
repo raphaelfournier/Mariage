@@ -1,4 +1,4 @@
-url: http://raphaelfournier.github.com
+url: http://raphaelfournier.github.com/Mariage
 
 safe:        false
 auto:        true
@@ -7,7 +7,6 @@ server_port: 4000
 
 source:      .
 destination: ./_site
-plugins:     ./_plugins
 
 exclude: Rakefile
 
