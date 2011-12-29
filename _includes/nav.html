@@ -1,9 +1,7 @@
 <div id="nav">
   <ul>
-    <li{% if page.slug == 'home' %} class="active"{% endif %}><a rel="home page" title="home sweet home" href="/Mariage">home</a></li>
-    <li{% if page.slug == 'about' %} class="active"{% endif %}><a rel="about this" title="what do you want to know?" href="/Mariage/about/">about</a></li>
-    <li{% if page.slug == 'journal' %} class="active"{% endif %} {% if page.layout == 'post' %} class="active"{% endif %}><a rel="journal" title="musings on random things" href="/Mariage/journal/">Journal</a></li>
-    <li{% if page.slug == 'archives' %} class="active"{% endif %}><a rel="browse" title="browse the archives" href="/Mariage/archives/">archives</a></li>
-    <li{% if page.slug == 'projects' %} class="active"{% endif %}><a rel="project page" title="a list of my projects" href="/Mariage/projects/">projects</a></li>
+    <li{% if page.slug == 'home' %} class="active"{% endif %}><a rel="home page" title="home sweet home" href="/">accueil</a></li>
+    <li{% if page.slug == 'infos' %} class="active"{% endif %}><a rel="infos pratiques" title="infos pratiques" href="/infos/">infos pratiques</a></li>
+    <li{% if page.slug == 'contact' %} class="active"{% endif %} {% if page.layout == 'post' %} class="active"{% endif %}><a rel="contact" title="contact" href="/contact/">contact</a></li>
   </ul>
 </div>
