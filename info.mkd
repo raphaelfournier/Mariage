@@ -1,11 +1,12 @@
 ---
-title: Infos pratiques
+title: informations pratiques
 layout: page
-date: 2011-12-26
 slug: infos
+
 ---
 
 ## Venir
+
 
 <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0"
 marginwidth="0"

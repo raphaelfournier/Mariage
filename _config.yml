@@ -1,4 +1,7 @@
-url: http://raphaelfournier.github.com/Mariage
+name: "Raph & Marie se marient"
+url: http://mariage-marie.raphaelfournier.net
+title: Raph et Marie
+author: Raph et Marie
 
 safe:        false
 auto:        true
@@ -7,15 +10,33 @@ server_port: 4000
 
 source:      .
 destination: ./_site
+plugins:     ./_plugins
 
 exclude: Rakefile
 
+# plugins
+category_dir:       categories
+code_dir:           code
+post_types:
+  - portfolio
+index_pages:
+  category:
+    do_related:     false
+    title_prefix:   'Category: '
+  tag:
+    do_related:     true
+    title_prefix:   'Tag: '
+############################    
+
 future:      true
 lsi:         false
-pygments:    true
-markdown:    maruku
-permalink:   pretty
+markdown: rdiscount
+pygments: true
 paginate: 6
+#permalink: /:year/:month/:day/:title
+permalink: pretty
+rdiscount:
+  extensions: [smart]
 
 maruku:
   use_tex:    false
@@ -42,6 +63,16 @@ kramdown:
     coderay_bold_every: 10
     coderay_css: style
 
-project_dir: projects
+#project_dir: projects
+category_dir: 'tags'
+category_title_prefix: 'Posts tagged '
+archive_yearly: true
+archive_monthly: true
+archive_daily: true
 
-#disqus_short_name: kismetik
+# indextank settings
+indextank_index: my_index
+indextank_api_url: http://:myapikey@myapi.api.indextank.com
+
+# these values are applied as regular expressions
+indextank_excludes: [index.html, 404.html, ^/secret/]

@@ -130,13 +130,13 @@ content:"- ";
     padding: 0;
     border-bottom: solid 1px #eee;         
 }
-h1.logo {
+#splash {
     color:#86A4D1; 
     margin:0; 
-    padding: 30px 50px 50px 50px;
-    font-size: 100pt; 
-    text-transform: lowercase; 
-    font-style: italic;
+    padding: 20px;
+    font-size: 80pt; 
+    text-transform: uppercase; 
+    font-family: 'Oswald', 'Georgia', Sans-Serif;
 }
 #splash p {
     width: 50%;
@@ -145,6 +145,15 @@ h1.logo {
     padding: 30px 50px;
     font-size:18pt;
     color: #8d8d8d;
+}
+#splash .prenom {
+  color:#800;
+  border-top:1px solid #3F3F3F;
+  border-bottom:1px solid #3F3F3F;
+}
+#splash .and {
+  color:#3F3F3F;
+  font-family: 'Georgia', Sans-Serif;
 }
 #splash img {
   margin:auto;
@@ -235,7 +244,6 @@ h1 a:link {text-transform: uppercase; color: black; font-family: 'Arial', Sans-S
 .entry p {
   font-size: 14pt;
   line-height: 2em;
-  text-indent: 2em;
 }
 .viewarchives {
   text-align: center;
