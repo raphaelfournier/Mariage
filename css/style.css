@@ -1,11 +1,5 @@
 * { margin: 0; padding: 0; outline: 0; }
 
-/* HTML5 tags */
-header, section, footer,
-aside, nav, article, figure {
-	display: block;
-}
-
 @font-face { font-family: Lobster; src: url(../fonts/Lobster\ 1.4.otf) format("opentype") }
 @font-face { font-family: Keffeesatz; src: url(../fonts/YanoneKaffeesatz-Light.otf) format("opentype") }
 @font-face { font-family: KeffeesatzBold; src: url(../fonts/YanoneKaffeesatz-Bold.otf) format("opentype") }
@@ -25,10 +19,15 @@ body { font-family: Keffeesatz, Arial;
 h1 { color: #fff; font-size: 40px; position: relative; top: 15px; }
 
 h2,h3,h4,h5 {margin-top:25px;}
-h2 { font-size: 46px; color: #77D7E3; height: 80px;  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);}
+h2 { 
+  font-size: 46px;
+  color: #77D7E3;
+  height: 80px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
 h2 span.sub { font-size: 38px; float: left; color: #4b4b4b; margin-top:25px;}
 h3 { font-size: 36px; color: #006363; margin-bottom:15px;}
-h4 { font-size: 30px; margin:10px 0px;}
+h4 { font-size: 30px; margin-bottom:10px;}
 h5 { font-size: 24px; text-decoration:underline; margin-bottom:10px;}
 
 /*
@@ -60,9 +59,11 @@ a:hover {
  border-bottom: 1px solid #006363;
  padding-bottom: 2px;
  }
-a:active { color: #952610;
+a:active { 
+  color: #006363;
+ color:#77D7E3;
  text-decoration: none;
- border-bottom: 1px solid #952610;
+ border-bottom: 1px solid #77D7E3;
  padding-bottom: 2px;
  position: relative;
  top: 1px;
@@ -85,16 +86,16 @@ strong { font-family: KeffeesatzBold, Arial; }
  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
  }
 #headercontainer a:active {
- color: #006363;
+ color:#77D7E3;
  text-decoration: none;
- border-bottom: 1px solid #006363;
+ border-bottom: 1px solid #77D7E3;
  padding-bottom: 2px;
  position: relative;
  top: 1px;
  }
 
-header { 
-  padding: 5px 0;
+#header { 
+ padding: 5px 0;
  width: 100%;
  background-color: #3f3F3F; /* #006363;*/
  margin-bottom: 25px;
@@ -102,43 +103,48 @@ header {
  -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
  position: fixed;
  z-index: 10;
- float: left;
  }
-#headercontainer, #contentcontainer { width: 960px;
+#headercontainer { 
+ width: 85%;
  margin: 0 auto;
  position: relative;
- }
-#contentcontainer { float: none;
- padding-top: 0px;
+}
+
+#contentcontainer { 
+ width: 960px;
+ margin: 0 auto;
+ position: relative;
+  float: none;
  }
 
-nav { width: auto; float: left; }
-nav ul { position: absolute; right: 0; display: block; margin-top: -37px; }
-nav ul li { display: inline; margin-left: 30px; }
-nav ul li a { font-size: 24px; border-bottom: none; }
+#nav { width: auto; float: left; }
+#nav ul { position: absolute; right: 0; display: block; margin-top: -37px; }
+#nav ul li { display: inline; margin-left: 30px; }
+#nav ul li a { font-size: 24px; border-bottom: none; }
 
 #headercontainer h1 a { 
   color: #e9e8e7; 
   font-family: Lobster, Arial;
   font-size: 40px; 
   background-color: #E72081; 
- background-color:#77D7E3;
+  background-color:#77D7E3;
   padding: 5px 25px 10px 25px; 
   width: 300px; 
   -webkit-border-radius: 10px; 
+  border-radius: 10px; 
   -moz-border-radius: 10px; 
-  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); 
-  -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); 
+  /*-moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); 
   border-bottom: 1px solid rgba(0, 0, 0, 0.4); 
-  border-top: 1px solid rgba(136, 0, 0, 0.6);
- text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  border-top: 1px solid rgba(136, 0, 0, 0.6);*/
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
   font-family: Macondo;
 }
 
 #headercontainer h1 a:hover { 
  padding: 5px 25px 10px 25px; 
  color: #e9e8e7;
- background-color: #e9e8e7;
+ background-color: #3f3f3f;
  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
  background: -webkit-gradient(
 	    linear,
@@ -155,11 +161,21 @@ nav ul li a { font-size: 24px; border-bottom: none; }
   border-bottom: 1px solid rgba(0, 0, 0, 0.4); 
   border-top: 1px solid rgba(75, 75,75, 0.6);
 }
-section { margin-bottom: 1000px; padding-top: 130px; padding-left: 25px;float: left; width:960px; }
-section#intro { padding-top: 180px; } 
+div#intro,
+div#ceremonie,
+div#cocktail,
+div#sejour,
+div#quefaire,
+div#contact {
+  margin-bottom: 1000px; 
+  padding-top: 130px; 
+  float: left; 
+  width:960px; 
+  position:relative;
+}
+/*div#ceremonie { padding-top: 380px; } */
 
 #intro h2 a { padding-bottom: 0px; }
-#intro .featured { padding-bottom: 0px; border-bottom: none; }
 #ceremonie .work a img, input, textarea { margin:20px;
  border: 5px solid rgba(149, 38, 16, 1);
  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
@@ -188,8 +204,10 @@ section#intro { padding-top: 180px; }
  -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6); 
 }
 
-ul li { margin-bottom: 10px; }
-.nom { text-decoration:underline; letter-spacing:.3ex;}
+/*ul li { margin-bottom: 10px; }*/
+ul { padding-left: 25px; }
+ul li { margin: 10px 0; }
+.nom { text-decoration:none; font-style:italic; letter-spacing:.3ex;}
 .coord { }
 
 #contact { margin-bottom: 0px; }
@@ -224,8 +242,8 @@ width:320px;
 float:left;
 }
 
-footer { text-align:center;width:960px; float: left; margin-top: 150px; }
-footer ul { margin-bottom: 150px; }
-footer ul li { display: inline; margin-right: 50px; }
-footer ul li a { font-size: 24px; margin-left: 10px; }
-footer ul li img { vertical-align: bottom; position: relative; top: 2px; }
+#footer { text-align:center;width:960px; float: left; margin-top: 150px; }
+#footer ul { margin-bottom: 150px; }
+#footer ul li { display: inline; margin-right: 50px; }
+#footer ul li a { font-size: 24px; margin-left: 10px; }
+#footer ul li img { vertical-align: bottom; position: relative; top: 2px; }
