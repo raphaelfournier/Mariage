@@ -4,4 +4,6 @@ layout: html5
 slug: home
 ---
 
-coucou
+<div id="intro">
+{% include intro.html %}	
+</div>

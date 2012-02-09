@@ -1,0 +1,176 @@
+---
+title: Séjour
+layout: html5
+slug: sejour
+---
+
+<div class="column">
+<h4>Campings à proximité :</h4>
+
+<h5>5 km de Montpeyroux</h5>
+
+<ul>
+  <li>
+<span class="nom">Camping Municipal Le Gazon</span>
+    <div class="coord">
+      63114 Coudes<br/>
+      04 73 96 61 08<br/>
+    </div>
+  </li>
+</ul>
+
+<h5>10 km de Montpeyroux</h5>
+
+<ul>
+  <li>
+<span class="nom">Camping Municipal La Croix Du Vent</span>
+    <div class="coord">
+      63270 Vic le Comte<br/>
+      04 73 69 22 63<br/>
+    </div>
+  </li>
+  <li>
+<span class="nom">Camping Longues</span>
+    <div class="coord">
+      63270 Vic le Comte <br/>
+      04 73 62 52 57<br/>
+    </div>
+  </li>
+  <li>
+<span class="nom">Camping Val d'allier comte </span>
+    <div class="coord">
+      63270 Vic-le-Comte<br/>
+      04 73 69 05 10<br/>
+    </div>
+  </li>
+</ul>
+
+<h5>15 km de Montpeyroux</h5>
+
+<ul>
+  <li>
+<span class="nom">La gazelle</span>
+    <div class="coord">
+      63320 Clemensat <br/>
+      04 73 71 17 24<br/>
+    </div>
+  </li>
+  <li>
+<span class="nom">Les grottes</span>
+    <div class="coord">
+      63500 Perrier <br/>
+      04 73 89 03 17<br/>
+    </div>
+  </li>
+  <li>
+<span class="nom">Le clos auroy </span>
+    <div class="coord">
+      63670 Orcet<br/>
+      04 73 84 26 97<br/>
+    </div>
+  </li>
+  <li>
+<span class="nom">Municipal</span>
+    <div class="coord">
+      63320 Montaigut le blanc<br/>
+      04 73 96 70 05<br/>
+    </div>
+  </li>
+  <li>
+<span class="nom">Municipal la font de bleix </span>
+    <div class="coord">
+      63730 Les martres de veyre <br/>
+      04 73 39 72 72<br/>
+    </div>
+  </li>
+  <li>
+<span class="nom">Municipal le mas </span>
+    <div class="coord">
+      63500 Issoire<br/>
+      04 73 89 03 59<br/>
+  </li>
+</ul>
+
+</div> <!-- end of column one -->
+
+<div class="column">
+<h4>Hôtels à proximité :</h4>
+<ul>
+  <li>
+    <span class="nom">Hôtel Restaurant le Relais de Vitarelle</span>
+    <div class="coord">
+      La Vitarelle<br/>
+      63114 MONTPEYROUX<br/>
+      FIXTHIS Tél : 05 65 44 36 01<br/>
+    </div>
+  </li>
+</ul>
+
+<h5>5 km de Montpeyroux</h5>
+<ul>
+  <li>
+    <span class="nom">Formule 1 Sud Issoire Coudes</span>
+    <div class="coord">
+    63114 Coudes<br/>
+    </div>
+  </li>
+
+  <li>
+    <span class="nom">Hotel de La Poste</span>
+    <div class="coord">
+      04 73 96 61 05<br/>
+      2 Avenue Jean Jaurès<br/>
+      63114 Coudes<br/>
+    </div>
+  </li>
+
+  <li>
+    <span class="nom">Mon auberge</span>
+    <div class="coord">
+      63270 Parent<br/>
+      04 73 96 60 14<br/>
+    </div>
+  </li>
+</ul>
+
+<h5>10 km de Montpeyroux</h5>
+<ul>
+  <li>
+    <span class="nom">Le centre</span>
+    <div class="coord">
+      Champeix<br/>
+      04 73 96 73 02<br/>
+    </div>
+  </li>
+  <li>
+    <span class="nom">Virgata Tony</span>
+    <div class="coord">
+      186 Gén de Gaulle <br/>
+      Longues <br/>
+      63270 Vic le Comte<br/>
+      04.73.39.90.31 
+    </div>
+  </li>
+</ul>
+
+<h5>15 km de Montpeyroux</h5>
+<ul>
+  <li><span class="nom">Campanile Clermont-Ferrand ~ Issoire</span></li>
+  <li><span class="nom">Hôtel Ibis Issoire</span></li>
+  <li><span class="nom">Logis Le Pariou - Le Jardin</span></li>
+  <li><span class="nom">Ace Hôtel Issoire</span></li>
+  <li><span class="nom">Etap Hotel Issoire (Issoire )</span></li>
+</ul>
+
+<h5>20 km de Montpeyroux</h5>
+<ul>
+  <li>
+    <span class="nom">HOTEL DU MIDI</span>
+    <div class="coord">
+    4 Place Joseph Gardet<br/>
+    63800 Cournon d'Auvergne<br/>
+    04 73 84 80 13
+    </div>
+  </li>
+</ul>
+</div> <!-- end of column two -->

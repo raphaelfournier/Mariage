@@ -14,7 +14,7 @@ body { font-family: Keffeesatz, Arial;
  }
 
 ::selection { background-color: rgba(149, 38, 16, 0.2); }
-::-moz-selection { background-color: rgba(149, 38, 16, 0.2); border: 10px solid red; }
+::-moz-selection { background-color: rgba(149, 38, 16, 0.2); }
 
 h1 { color: #fff; font-size: 40px; position: relative; top: 15px; }
 
@@ -101,8 +101,6 @@ strong { font-family: KeffeesatzBold, Arial; }
  margin-bottom: 25px;
  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
  -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
- position: fixed;
- z-index: 10;
  }
 #headercontainer { 
  width: 85%;
@@ -113,8 +111,9 @@ strong { font-family: KeffeesatzBold, Arial; }
 #contentcontainer { 
  width: 960px;
  margin: 0 auto;
- position: relative;
-  float: none;
+  padding-top: 30px; 
+  margin-bottom: 800px; 
+  position:relative;
  }
 
 #nav { width: auto; float: left; }
@@ -160,18 +159,6 @@ strong { font-family: KeffeesatzBold, Arial; }
 	);
   border-bottom: 1px solid rgba(0, 0, 0, 0.4); 
   border-top: 1px solid rgba(75, 75,75, 0.6);
-}
-div#intro,
-div#ceremonie,
-div#cocktail,
-div#sejour,
-div#quefaire,
-div#contact {
-  margin-bottom: 1000px; 
-  padding-top: 130px; 
-  float: left; 
-  width:960px; 
-  position:relative;
 }
 /*div#ceremonie { padding-top: 380px; } */
 
@@ -242,7 +229,12 @@ width:320px;
 float:left;
 }
 
-#footer { text-align:center;width:960px; float: left; margin-top: 150px; }
+#footer { 
+  margin:0 auto;
+  text-align:center;
+width:960px;
+margin-bottom:10px;
+}
 #footer ul { margin-bottom: 150px; }
 #footer ul li { display: inline; margin-right: 50px; }
 #footer ul li a { font-size: 24px; margin-left: 10px; }
