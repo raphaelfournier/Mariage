@@ -1,0 +1,20 @@
+---
+title: Réception
+layout: html5
+slug: reception
+
+---
+
+<div class="column">
+<a name="montpeyroux"></a>
+La r&eacute;ception aura lieu &agrave; l'espace culturel de Montpeyroux.
+</div>
+<div class="column">
+  <img src="/images/montpeyroux.png" width="90%">
+        <!-- ><iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0"
+marginwidth="0"
+src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Montpeyroux,+France&amp;aq=0&amp;oq=montpeyroux&amp;sll=46.233775,3.095399&amp;sspn=9.483838,17.731934&amp;vpsrc=6&amp;ie=UTF8&amp;hq=&amp;hnear=Montpeyroux,+Puy-de-D%C3%B4me,+Auvergne,+France&amp;t=m&amp;ll=45.604731,3.230495&amp;spn=0.037459,0.069265&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a
+href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Montpeyroux,+France&amp;aq=0&amp;oq=montpeyroux&amp;sll=46.233775,3.095399&amp;sspn=9.483838,17.731934&amp;vpsrc=6&amp;ie=UTF8&amp;hq=&amp;hnear=Montpeyroux,+Puy-de-D%C3%B4me,+Auvergne,+France&amp;t=m&amp;ll=45.604731,3.230495&amp;spn=0.037459,0.069265&amp;z=14&amp;iwloc=A"
+style="color:#0000FF;text-align:left">View Larger Map</a></small> -->
+</div>
+
