@@ -101,7 +101,7 @@ slug: sejour
     <div class="coord">
       La Vitarelle<br/>
       63114 MONTPEYROUX<br/>
-      FIXTHIS Tél : 05 65 44 36 01<br/>
+      Tél : 05 65 44 36 01<br/>
     </div>
   </li>
 </ul>
