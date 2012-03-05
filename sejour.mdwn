@@ -94,8 +94,8 @@ slug: sejour
 </div> <!-- end of column one -->
 
 <div class="column">
-<h4>Hôtels à proximité :</h4>
-<ul>
+<h4>Hôtels :</h4>
+<!-- <ul>
   <li>
     <span class="nom">Hôtel Restaurant le Relais de Vitarelle</span>
     <div class="coord">
@@ -105,6 +105,7 @@ slug: sejour
     </div>
   </li>
 </ul>
+-->
 
 <h5>5 km de Montpeyroux</h5>
 <ul>
