@@ -11,8 +11,21 @@ slug: ceremonie
         10 Rue Philippe-Marcombes<br/>
         63000 Clermont-Ferrand
       </div>
+<br/>
+<p style="text-align:justify;margin-right:30px;">
+Note : une photographe professionnelle, Marta, sera présente de la cérémonie au repas
+et nous pourrons vous faire parvenir ses photos par mail après le mariage. Vous
+pouvez bien sûr prendre vos propres photos pendant la cérémonie, mais attention
+aux excès, nous aimerions que vous soyez tous présents sur les photos de Marta.
+</p>
 </div>
 
 <div class="column">
-  <img src="/images/mairie.png" width="90%">
+<!--  <img src="/images/mairie.png" width="90%"> -->
+
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0"
+marginwidth="0"
+src="http://www.openstreetmap.org/export/embed.html?bbox=3.07984,45.77417,3.09283,45.78238&amp;layer=mapnik&amp;marker=45.77975,3.08681"
+style="border: 1px solid black"></iframe><br /><small><a
+href="http://www.openstreetmap.org/?lat=45.778275&amp;lon=3.086335&amp;zoom=16&amp;layers=M&amp;mlat=45.77975&amp;mlon=3.08681">Agrandir</a></small>
 </div>

@@ -96,16 +96,6 @@ slug: sejour
 <div class="column">
 <h4>Hôtels à proximité :</h4>
 <ul>
-  <li>
-    <span class="nom">Hôtel Restaurant le Relais de Vitarelle</span>
-    <div class="coord">
-      La Vitarelle<br/>
-      63114 MONTPEYROUX<br/>
-      FIXTHIS Tél : 05 65 44 36 01<br/>
-    </div>
-  </li>
-</ul>
-
 <h5>5 km de Montpeyroux</h5>
 <ul>
   <li>

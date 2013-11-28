@@ -49,9 +49,9 @@ h2.contact { background: url(images/contact.png) no-repeat -10px -10px; }
  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
 a { 
-  color: #4b4b4B;
- text-decoration: none;
- padding-bottom: 2px;
+ color: #006363;
+/* text-decoration: none;
+ padding-bottom: 2px;*/
  }
 a:hover { 
   color: #006363;
@@ -228,6 +228,10 @@ padding:0;
 width:320px;
 float:left;
 }
+
+.countdown{
+  margin-top:20px;
+font-size: 18px; }
 
 #footer { 
   margin:0 auto;

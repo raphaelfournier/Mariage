@@ -1,0 +1,36 @@
+---
+title: Cadeaux
+layout: html5
+slug: cadeaux
+---
+
+<div class="column">
+Pour nous faire un cadeau, vous avez le choix entre urne et liste :
+<ul>
+  <li>
+Une liste a été déposée à Atlas (voir horaires et adresse ci-dessous), près de Clermont-Ferrand.
+  </li>
+  <li>
+Pour ceux qui n'habitent pas Clermont ou qui ne pourront pas se rendre à Atlas,
+nous prévoyons
+une urne qui servira à financer un voyage.
+  </li>
+</ul>
+<br/>
+<b>Merci à tous !</b>
+
+<br/>
+<br/>
+<p>
+Atlas<br/>
+RN 89<br/>
+63370  LEMPDES<br/>
+Tél : 04 73 60 72 00<br/>
+
+<br/>
+Horaires<br/>
+Lundi : 14h à 19h<br/>
+Mardi, Mercredi Jeudi, Vendredi, Samedi : 9h30 à 12h, 14h à 19h<br/>
+Fermé le Dimanche
+</p>
+</div>
